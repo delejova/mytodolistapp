@@ -1,0 +1,36 @@
+@import "src/assets/base";
+
+.wrapper {
+  margin: 8px;
+  background: $white;
+  font-size: 24px;
+  color: $black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 1s ease;
+}
+
+.item {
+  flex: 1;
+  padding: 0 8px;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.button {
+  &__complete {
+    background: $green;
+  }
+
+  &__delete {
+    background: $orange;
+  }
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}

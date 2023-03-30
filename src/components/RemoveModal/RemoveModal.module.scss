@@ -1,0 +1,59 @@
+@import "src/assets/base";
+
+.layout {
+  position: fixed;
+  background: $layout;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: $white;
+  opacity: 1;
+  width: 560px;
+}
+
+.title {
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__label {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  &__icon {
+    background: $white;
+    color: $grey;
+    font-size: 24px;
+  }
+}
+
+.label {
+  font-size: 18px;
+  margin: 30px;
+}
+
+.buttons-list {
+  margin: 30px;
+  text-align: end;
+}
+
+.button {
+  &__cancel {
+    margin-right: 20px;
+  }
+
+  &__remove {
+    background: $orange;
+  }
+}

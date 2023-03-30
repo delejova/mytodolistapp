@@ -1,0 +1,15 @@
+@import "src/assets/base";
+
+button {
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  background: $grey;
+  color: $white;
+  font-size: 16px;
+  padding: 16px;
+}
+
+.label {
+  padding: 0 16px;
+}
